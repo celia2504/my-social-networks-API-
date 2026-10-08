@@ -1,0 +1,24 @@
+{
+  "name": "my-social-networks-api",
+  "version": "1.0.0",
+  "description": "API REST My Social Networks (événements, groupes, discussions, albums, sondages, billetterie)",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node --watch index.mjs",
+    "test:e2e": "node scripts/e2e.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "validator": "^13.12.0"
+  }
+}
